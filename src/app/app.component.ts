@@ -1,3 +1,5 @@
+// app.component.ts
+
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +8,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'extra';
+  a: number = 0; // Inicializamos 'a' aquí
+  b: number = 0; // Inicializamos 'b' aquí
+  x: number = 0;
+  resultado: number = 0;
+
+  calcularFormula() {
+    // Tu lógica de cálculo aquí
+    this.resultado = this.a + this.b + this.x;
+  }
 }
