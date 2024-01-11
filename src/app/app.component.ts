@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  title = 'extra';
+
   a: number = 0; // Inicializamos 'a' aquí
   b: number = 0; // Inicializamos 'b' aquí
   x: number = 0;
