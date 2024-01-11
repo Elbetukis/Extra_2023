@@ -15,6 +15,6 @@ export class AppComponent {
 
   calcularFormula() {
     // Tu lógica de cálculo aquí
-    this.resultado = this.a + this.b + this.x;
+    this.resultado = this.a * this.x + this.b;
   }
 }
